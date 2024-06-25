@@ -1,10 +1,10 @@
 # Labelme JSON annotations to YOLOv5PyTorch annotation format  
 
 ## Parameters 
-**--labelme_dir** - Path to directory with LabelmeJSON files. It is recommended to remove the image files for organization purposes, but not required. <br />
-**--delete_json** - Default value is "no." Type 'y' to delete LabelMeJSON files after conversion. <br />
-**--val_split** - Default value is 0.10. Type percentage, in decimal form, of data to be in validation set. <br />
-**--test_split** - Default value is 0.10. Type percentage, in decimal form, of data to be in validation set. <br />
+**--labelme_dir** - Path to directory with LabelmeJSON files. It is recommended to remove the image files for organization purposes, but not required. <br /><br />
+**--delete_json** - Default value is "no." Type 'y' to delete LabelMeJSON files after conversion. <br /><br />
+**--val_split** - Default value is 0.10. Type percentage, in decimal form, of data to be in validation set. <br /><br />
+**--test_split** - Default value is 0.10. Type percentage, in decimal form, of data to be in validation set. <br /><br />
 
 `
   python3 converter.py --labelme_dir /path/to/labelme/dir/ --delete-json n --val_split 0.10 --test_split 0.10 
